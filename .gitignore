@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+
+# Coverage and test artifacts
+.coverage
+coverage/
+
+# Runtime data and local state
+tmp/
+checkpoints/
+*.pid
+*.seed
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# Caches
+.cache/
+.turbo/
+
+# TypeScript
+*.tsbuildinfo
+
+# Editors and OS files
+.DS_Store
+.idea/
+.vscode/
