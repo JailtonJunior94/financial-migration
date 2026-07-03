@@ -14,6 +14,8 @@ O fluxo principal atual e:
 4. publicar no servico alvo via HTTP
 5. retomar execucoes com checkpoints idempotentes
 
+Alem disso, o pipeline pode operar offline por estagio a partir de arquivos JSON: `pipeline:discover`, `pipeline:eligibility`, `pipeline:consolidate`, `pipeline:classify`, `pipeline:publish-cards`. Artefatos operacionais (progresso, issues/bindings) sao persistidos em stores atomicas separadas e podem ser consultados/resetados por comandos utilitarios.
+
 ## Stack e arquitetura
 
 - Runtime: Bun
@@ -41,6 +43,21 @@ Estrutura principal:
 - Mudancas de regra de negocio devem acontecer primeiro em `domain` ou `application`, nao em `bootstrap`.
 - Evite mover logica de negocio para adapters ou utilitarios transversais.
 
+## Variaveis de ambiente operacionais
+
+Alem das variaveis de SQL Server e da API destino, os artefatos operacionais usam:
+
+- `CHECKPOINT_FILE`: caminho do checkpoint legado (padrao: `./checkpoints/default.json`)
+- `PROGRESS_FILE`: caminho do progress store atomico (padrao: `./checkpoints/progress.json`)
+- `PILOT_SELECTION_FILE`: caminho da selecao de entidade piloto (padrao: `./tmp/pilot-selection.json`)
+- `REVIEW_ARTIFACTS_DIR`: diretorio de issues de revisao (padrao: `./tmp/review-artifacts`)
+- `REMOTE_BINDINGS_DIR`: diretorio de bindings remotos de cartoes (padrao: `./tmp/remote-bindings`)
+- `TARGET_USER_ID`: UUID do usuario destino (usado em stages que precisam de um usuario)
+- `TARGET_GATEWAY_SECRET`: token de autenticacao para publicacao de cartoes
+- `OPENROUTER_API_BASE_URL`, `OPENROUTER_API_KEY`, `OPENROUTER_MODEL`: configuracao opcional de enriquecimento semantico
+
+SQL Server e a API destino sao opcionais: comandos que dependem deles falham com mensagem clara quando a configuracao nao esta presente.
+
 ## Regras de trabalho
 
 - Entenda o fluxo atual antes de editar.
@@ -62,6 +79,15 @@ Instalacao e execucao:
 - `make inspect-schema`
 - `make select-pilot`
 - `make sync-pilot`
+- `make pipeline-discover`
+- `make pipeline-eligibility`
+- `make pipeline-consolidate`
+- `make pipeline-classify`
+- `make pipeline-publish-cards`
+- `make progress-list`
+- `make review-list`
+- `make bindings-list`
+- `make traceability-matrix`
 
 Qualidade:
 

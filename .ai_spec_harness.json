@@ -4,13 +4,8 @@
   "updated_at": "2026-07-02T14:24:17.573201-03:00",
   "source_dir": "/var/folders/hg/97c4drd559zgx8mztt_4b6fw0000gn/T/ai-spec-harness-embedded-762408051",
   "link_mode": "copy",
-  "tools": [
-    "claude",
-    "codex"
-  ],
-  "langs": [
-    "node"
-  ],
+  "tools": ["claude", "codex"],
+  "langs": ["node"],
   "skills": [
     "create-prd",
     "create-technical-specification",
