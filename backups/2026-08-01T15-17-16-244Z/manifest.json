@@ -1,0 +1,292 @@
+{
+  "startedAt": "2026-08-01T15:17:16.245Z",
+  "completedAt": "2026-08-01T15:17:36.827Z",
+  "outputDir": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z",
+  "databases": [
+    {
+      "key": "financialcontroldb",
+      "database": "DB_A453C8_FinancialControl",
+      "host": "SQL5053.site4now.net",
+      "startedAt": "2026-08-01T15:17:16.250Z",
+      "completedAt": "2026-08-01T15:17:27.445Z",
+      "outputDir": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl",
+      "physical": {
+        "remotePath": "H:\\Program Files\\Microsoft SQL Server\\MSSQL15.MSSQLSERVER\\MSSQL\\Backup\\DB_A453C8_FinancialControl-2026-08-01T15-17-16-250Z.bak",
+        "success": false,
+        "verified": false,
+        "downloadedLocally": false,
+        "errorMessage": "BACKUP DATABASE is terminating abnormally."
+      },
+      "logical": {
+        "schemas": [
+          "dbo"
+        ],
+        "tables": [
+          {
+            "schemaName": "dbo",
+            "tableName": "Bill",
+            "rowCount": 68,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.Bill.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "BillItem",
+            "rowCount": 406,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.BillItem.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "Card",
+            "rowCount": 5,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.Card.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "Category",
+            "rowCount": 30,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.Category.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "Flag",
+            "rowCount": 5,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.Flag.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "Invoice",
+            "rowCount": 174,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.Invoice.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "InvoiceItem",
+            "rowCount": 7099,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.InvoiceItem.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "Transaction",
+            "rowCount": 80,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.Transaction.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "TransactionItem",
+            "rowCount": 809,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.TransactionItem.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "User",
+            "rowCount": 3,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.User.sql"
+          }
+        ],
+        "fileChecksums": [
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/schema-pre-data.sql",
+            "sha256": "8db7cf0c781fc8b6a29f4c31e1a61e3e29051d199a5eb690bed16a1d77f342b4",
+            "bytes": 4721
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/schema-post-data.sql",
+            "sha256": "472da46e8c135c5ef7649c0a3ca490a0fd938a0b34916cb44e09e81782dffe15",
+            "bytes": 2113
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/schema.sql",
+            "sha256": "fed193780be0ed31768f8922f81b5ff33e7f4ed0e6950ba69bf18b105e5f4784",
+            "bytes": 6839
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/restore-logical.sql",
+            "sha256": "d6701ea7942bc232761b263e58d3b6c56b8645394f4d1e4f4a72e33ed9ae5c1c",
+            "bytes": 387
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/restore-portable.sql",
+            "sha256": "c395526363da8b503482c1d45b295fa937bc87828e88435792440b4f8586e389",
+            "bytes": 1975915
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.Bill.sql",
+            "sha256": "fed39ece0361aa71d9912c2d7aeb1c5b6073445320d27a6e2ba14b3f1a07c4ba",
+            "bytes": 10233
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.BillItem.sql",
+            "sha256": "bb887aaa01025cb3e54373d9a6db01b93189736afd1b293c98f8bfab370728ed",
+            "bytes": 65007
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.Card.sql",
+            "sha256": "be2f332b6913024cdde42638dadb8c6a1756815efebb4761892cfae2c4c95943",
+            "bytes": 1289
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.Category.sql",
+            "sha256": "746ccd92398a3bafdbd8e51254066e7c67c5e18394bc5bf1ce3a55fdb940a7a1",
+            "bytes": 3067
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.Flag.sql",
+            "sha256": "12a25b8ae72a956c5b5585e75906e190a75a7b3e322af91deab43ae5ebd034b5",
+            "bytes": 545
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.Invoice.sql",
+            "sha256": "8c62c9215db8e9f623bf398880f952f08ee2a72f5b357fe3090cecfe4ded9b46",
+            "bytes": 28083
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.InvoiceItem.sql",
+            "sha256": "f43566a53ea28d1e6a3c9c82b5b7a1e5f264a70ffa68ead7950d605e1259150f",
+            "bytes": 1699161
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.Transaction.sql",
+            "sha256": "c2c236ad97446f5067d64b8bf9df6106c123e833570e68aa88e1b9dbffb4bdfd",
+            "bytes": 15743
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.TransactionItem.sql",
+            "sha256": "6be4b61b1bc893e702bc67a4db0e8b76bd60da752e519a59f275bd58c2bc62e8",
+            "bytes": 145115
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/financialcontroldb-DB_A453C8_FinancialControl/logical/data/dbo.User.sql",
+            "sha256": "f21bdb89ec2dcb205ee0694c59765ff7e891ac6e98a0098fa9b4d705d47e133e",
+            "bytes": 769
+          }
+        ]
+      }
+    },
+    {
+      "key": "accountcontroldb",
+      "database": "db_a453c8_accountcontrol",
+      "host": "SQL5106.site4now.net",
+      "startedAt": "2026-08-01T15:17:27.446Z",
+      "completedAt": "2026-08-01T15:17:36.826Z",
+      "outputDir": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol",
+      "physical": {
+        "remotePath": "H:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Backup\\db_a453c8_accountcontrol-2026-08-01T15-17-27-446Z.bak",
+        "success": false,
+        "verified": false,
+        "downloadedLocally": false,
+        "errorMessage": "VERIFY DATABASE is terminating abnormally."
+      },
+      "logical": {
+        "schemas": [
+          "dbo"
+        ],
+        "tables": [
+          {
+            "schemaName": "dbo",
+            "tableName": "__EFMigrationsHistory",
+            "rowCount": 5,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.__EFMigrationsHistory.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "Accounts",
+            "rowCount": 116,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Accounts.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "Cards",
+            "rowCount": 2,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Cards.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "Categories",
+            "rowCount": 12,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Categories.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "Flags",
+            "rowCount": 4,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Flags.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "Invoices",
+            "rowCount": 125,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Invoices.sql"
+          },
+          {
+            "schemaName": "dbo",
+            "tableName": "Users",
+            "rowCount": 0,
+            "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Users.sql"
+          }
+        ],
+        "fileChecksums": [
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/schema-pre-data.sql",
+            "sha256": "17950feb5e0893583c013e2ab4cc494e2ca66e5ca4a09b0b0e489a2bf133c2ce",
+            "bytes": 3347
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/schema-post-data.sql",
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+            "bytes": 1
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/schema.sql",
+            "sha256": "f28ca3b036f8fb0d4b10ccb464dd38d4ed4f1d37346d8954950e221247b82945",
+            "bytes": 3353
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/restore-logical.sql",
+            "sha256": "08f99d37cad2229463a8d24aca044af890e7aa9de756195704b67c09f8bda9d1",
+            "bytes": 316
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/restore-portable.sql",
+            "sha256": "d10372e11ce7a7ca2b7ead2a8a532c697b06f39be65064481b6af66680d59c75",
+            "bytes": 51363
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.__EFMigrationsHistory.sql",
+            "sha256": "7c33961bcce9289cf926bd5bd06b071e412d42dcb1bac5e62c851a93ca6a9492",
+            "bytes": 387
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Accounts.sql",
+            "sha256": "813f02d97923885f0481e349e9a82b2d21c4f0217c579ebacf183e815558d6cf",
+            "bytes": 10705
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Cards.sql",
+            "sha256": "476a5dc4488ed82d54f3690fb27ac7ba783387e0558c5ae68ac8e6538f98e7d0",
+            "bytes": 550
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Categories.sql",
+            "sha256": "0951b98b4b8492d385882c34eb3d3922336bcddba2ec5dc6502853c9d4871a0d",
+            "bytes": 775
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Flags.sql",
+            "sha256": "f11298c308cdb6ae660211d6c3aa60faa0133244a2a72957fcc6a39d3f71d592",
+            "bytes": 295
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Invoices.sql",
+            "sha256": "86ba305379a20395556aea015262897f0a4e7f68048f9843b2e6de62288a3524",
+            "bytes": 35208
+          },
+          {
+            "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Users.sql",
+            "sha256": "de2f4fc88708d4846f2aa26f6a5f87ab01d8e3bc007730397a8a9b202470134b",
+            "bytes": 31
+          }
+        ]
+      }
+    }
+  ]
+}

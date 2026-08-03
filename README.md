@@ -19,6 +19,7 @@ bun run dev -- sync:pilot --dry-run
 bun run dev -- sync:pilot
 bun run dev -- checkpoint:list
 bun run dev -- checkpoint:reset
+bun run backup:sqlserver
 ```
 
 ## Estrutura
@@ -45,6 +46,17 @@ bun run openapi:generate
 3. Execute `make install`.
 4. Rode `make inspect-schema` e `make select-pilot`.
 5. Valide com `bun run dev -- sync:pilot --dry-run`.
+
+## Backup
+
+O repositório inclui um fluxo operacional separado para backup completo dos SQL Servers configurados em `.env`.
+
+```bash
+bun run backup:sqlserver
+```
+
+Os artefatos locais são gravados em `./backups/<timestamp>/`. Detalhes de restore e formato estão em `docs/sqlserver-backup.md`.
+O arquivo `logical/restore-portable.sql` pode ser executado em DBeaver ou outro cliente SQL sem depender de `sqlcmd`.
 
 ## Testes
 

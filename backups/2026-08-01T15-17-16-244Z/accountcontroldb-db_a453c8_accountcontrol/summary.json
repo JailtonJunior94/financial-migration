@@ -1,0 +1,126 @@
+{
+  "key": "accountcontroldb",
+  "database": "db_a453c8_accountcontrol",
+  "host": "SQL5106.site4now.net",
+  "startedAt": "2026-08-01T15:17:27.446Z",
+  "completedAt": "2026-08-01T15:17:36.826Z",
+  "outputDir": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol",
+  "physical": {
+    "remotePath": "H:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Backup\\db_a453c8_accountcontrol-2026-08-01T15-17-27-446Z.bak",
+    "success": false,
+    "verified": false,
+    "downloadedLocally": false,
+    "errorMessage": "VERIFY DATABASE is terminating abnormally."
+  },
+  "logical": {
+    "schemas": [
+      "dbo"
+    ],
+    "tables": [
+      {
+        "schemaName": "dbo",
+        "tableName": "__EFMigrationsHistory",
+        "rowCount": 5,
+        "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.__EFMigrationsHistory.sql"
+      },
+      {
+        "schemaName": "dbo",
+        "tableName": "Accounts",
+        "rowCount": 116,
+        "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Accounts.sql"
+      },
+      {
+        "schemaName": "dbo",
+        "tableName": "Cards",
+        "rowCount": 2,
+        "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Cards.sql"
+      },
+      {
+        "schemaName": "dbo",
+        "tableName": "Categories",
+        "rowCount": 12,
+        "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Categories.sql"
+      },
+      {
+        "schemaName": "dbo",
+        "tableName": "Flags",
+        "rowCount": 4,
+        "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Flags.sql"
+      },
+      {
+        "schemaName": "dbo",
+        "tableName": "Invoices",
+        "rowCount": 125,
+        "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Invoices.sql"
+      },
+      {
+        "schemaName": "dbo",
+        "tableName": "Users",
+        "rowCount": 0,
+        "dataFile": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Users.sql"
+      }
+    ],
+    "fileChecksums": [
+      {
+        "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/schema-pre-data.sql",
+        "sha256": "17950feb5e0893583c013e2ab4cc494e2ca66e5ca4a09b0b0e489a2bf133c2ce",
+        "bytes": 3347
+      },
+      {
+        "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/schema-post-data.sql",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "bytes": 1
+      },
+      {
+        "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/schema.sql",
+        "sha256": "f28ca3b036f8fb0d4b10ccb464dd38d4ed4f1d37346d8954950e221247b82945",
+        "bytes": 3353
+      },
+      {
+        "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/restore-logical.sql",
+        "sha256": "08f99d37cad2229463a8d24aca044af890e7aa9de756195704b67c09f8bda9d1",
+        "bytes": 316
+      },
+      {
+        "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/restore-portable.sql",
+        "sha256": "d10372e11ce7a7ca2b7ead2a8a532c697b06f39be65064481b6af66680d59c75",
+        "bytes": 51363
+      },
+      {
+        "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.__EFMigrationsHistory.sql",
+        "sha256": "7c33961bcce9289cf926bd5bd06b071e412d42dcb1bac5e62c851a93ca6a9492",
+        "bytes": 387
+      },
+      {
+        "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Accounts.sql",
+        "sha256": "813f02d97923885f0481e349e9a82b2d21c4f0217c579ebacf183e815558d6cf",
+        "bytes": 10705
+      },
+      {
+        "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Cards.sql",
+        "sha256": "476a5dc4488ed82d54f3690fb27ac7ba783387e0558c5ae68ac8e6538f98e7d0",
+        "bytes": 550
+      },
+      {
+        "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Categories.sql",
+        "sha256": "0951b98b4b8492d385882c34eb3d3922336bcddba2ec5dc6502853c9d4871a0d",
+        "bytes": 775
+      },
+      {
+        "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Flags.sql",
+        "sha256": "f11298c308cdb6ae660211d6c3aa60faa0133244a2a72957fcc6a39d3f71d592",
+        "bytes": 295
+      },
+      {
+        "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Invoices.sql",
+        "sha256": "86ba305379a20395556aea015262897f0a4e7f68048f9843b2e6de62288a3524",
+        "bytes": 35208
+      },
+      {
+        "path": "/Users/jailtonjunior/Git/financial-migration/backups/2026-08-01T15-17-16-244Z/accountcontroldb-db_a453c8_accountcontrol/logical/data/dbo.Users.sql",
+        "sha256": "de2f4fc88708d4846f2aa26f6a5f87ab01d8e3bc007730397a8a9b202470134b",
+        "bytes": 31
+      }
+    ]
+  }
+}

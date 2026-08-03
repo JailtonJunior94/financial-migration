@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "bun run src/bootstrap/cli.ts",
+    "backup:sqlserver": "bun run src/bootstrap/backup-sqlserver.ts",
     "build": "bun build ./src/bootstrap/cli.ts --outfile ./dist/cli.js --target bun",
     "typecheck": "bunx tsc --noEmit",
     "lint": "bunx @biomejs/biome check .",

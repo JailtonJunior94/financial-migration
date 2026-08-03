@@ -1,0 +1,7 @@
+{
+  "remotePath": "H:\\Program Files\\Microsoft SQL Server\\MSSQL15.MSSQLSERVER\\MSSQL\\Backup\\DB_A453C8_FinancialControl-2026-08-01T15-17-16-250Z.bak",
+  "success": false,
+  "verified": false,
+  "downloadedLocally": false,
+  "errorMessage": "BACKUP DATABASE is terminating abnormally."
+}

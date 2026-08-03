@@ -17,6 +17,7 @@ coverage/
 # Runtime data and local state
 tmp/
 checkpoints/
+backups/
 *.pid
 *.seed
 

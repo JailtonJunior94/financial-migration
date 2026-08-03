@@ -23,6 +23,9 @@ lint:
 typecheck:
 	bun run typecheck
 
+backup-sqlserver:
+	bun run backup:sqlserver
+
 inspect-schema:
 	bun run dev -- schema:inspect
 
